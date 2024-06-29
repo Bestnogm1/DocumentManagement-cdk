@@ -1,15 +1,6 @@
-# Welcome to your CDK TypeScript project
+## Document Management System Architecture
 
-This is a blank project for CDK development with TypeScript.
+#### Overview
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-## Useful commands
-
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
-# DocumentManagement-cdk
+This document describes the architecture of the Document Management System (DMS) designed to handle the uploading, storing, and fetching of documents. The system is built using a combination of front-end and back-end services, integrated with AWS resources for storage and processing.
+![Document Management](./images/infraImage.png)
